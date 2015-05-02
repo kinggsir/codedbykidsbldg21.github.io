@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      .content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        display: inline-block;
+      }
+      #one{
+        background-color: blue;
+        height: 60px;
+      }
+    </style>
   </head>
   <body>
-    <nav>
-      <div>
-	<h1>Good Corp</h1><!--These are heading tags. Heading tags can go from h1 to h6. Your text gets smaller as you go up--> 
+    <nav class="content" id="one"><!--We are now using class and id to identify our tags-->
+      <div class="col-sm-6">
+	<h1 id="logo">Good Corp</h1> 
       </div>
       <div>
-	<ul><!--These are unordered list tags. These tags hold your list elements-->
-	  <li>About</li><!--These are list item tags. These hold each individual element in your list-->
+	<ul>
+	  <li>About</li>
 	  <li>Services</li>
 	  <li>Contact</li>
 	</ul>
