@@ -10,6 +10,18 @@ body{
     border: 0;
     display: inline-block;
 }
+.col-sm-4, .col-sm-6, .col-sm-12{
+    float: left;
+}
+.col-sm-12{
+    width: 100%;
+}
+.col-sm-6{
+    width: 50%;
+}
+.col-sm-4{
+    width: 33.33333333%;
+}
 #one{
     background-color: blue;
     height: 60px;
